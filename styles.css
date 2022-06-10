@@ -37,6 +37,35 @@ body {
     border-bottom: 2px solid white;
 }
 
+.banner {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.button {
+    text-decoration: none;
+    color: inherit;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.407), rgba(255, 0, 0, 0.44));
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
 header {
     background-image: url(Assets/Illustrations/Bathome1.png);
+    background-size: cover;
+}
+
+.banner p {
+    padding-bottom: 20px;
+}
+
+.banner h1 {
+    padding-bottom: 20px;
+}
+
+.group-button {
+    padding-bottom: 120px;
 }
