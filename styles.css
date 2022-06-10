@@ -1,4 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
     color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.container {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0 50px;
+}
+
+.nav {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.nav {
+    border-bottom: 2px solid white;
+}
+
+header {
+    background-image: url(Assets/Illustrations/Bathome1.png);
 }
