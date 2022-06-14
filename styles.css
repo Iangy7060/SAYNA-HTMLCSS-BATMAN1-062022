@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Space+Grotesk:wght@400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,8 @@
 body {
     background-color: black;
     color: white;
+    font-family: "Space Grotesk";
+    font-weight: 400;
 }
 
 .nav {
@@ -62,10 +65,27 @@ header {
     padding-bottom: 20px;
 }
 
-.banner h1 {
+.banner h2 {
     padding-bottom: 20px;
+    font-family: Rajdhani;
+    font-weight: 500;
 }
 
 .group-button {
     padding-bottom: 120px;
+}
+
+.sary {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sary img {
+    width: 100%;
+}
+
+.sary h1 {
+    font-size: 16px;
 }
